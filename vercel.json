@@ -1,0 +1,6 @@
+{
+  "functions": {
+    "api/frd_scan.py": { "maxDuration": 60 },
+    "api/gap_scan.py": { "maxDuration": 60 }
+  }
+}

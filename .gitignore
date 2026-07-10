@@ -1,0 +1,13 @@
+# Clean Vercel repo: ignore everything, then allow only what the deploy needs.
+/*
+!index.html
+!vercel.json
+!.gitignore
+!data/
+!api/
+# within allowed dirs, still skip caches/junk
+__pycache__/
+*.pyc
+.DS_Store
+data/*
+!data/snapshot.json
